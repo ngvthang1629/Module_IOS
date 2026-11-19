@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A02 html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: blue;
+            font-size: 36px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td.ten {
+            text-align: left;
+            padding-left: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tiêu đề chính -->
+    <h1>Xin chào các bạn</h1>
+
+    <!-- Danh sách 43 thành viên lớp 12A0.2 -->
+    <p><strong>Danh sách lớp 12A0.2 (43 thành viên)</strong></p>
+    <table>
+        <tr>
+            <th>TT</th>
+            <th>Họ và tên</th>
+        </tr>
+        <tr><td>1</td><td class="ten">Nguyễn Văn An</td></tr>
+        <tr><td>2</td><td class="ten">Nguyễn Ngọc Phương Anh</td></tr>
+        <tr><td>3</td><td class="ten">Nguyễn Thị Quỳnh Anh</td></tr>
+        <tr><td>4</td><td class="ten">Hán Đặng Ngọc Ánh</td></tr>
+        <tr><td>5</td><td class="ten">Nguyễn Đình Gia Bảo</td></tr>
+        <tr><td>6</td><td class="ten">Trần Thị Minh Châu</td></tr>
+        <tr><td>7</td><td class="ten">Phan Viết Cường</td></tr>
+        <tr><td>8</td><td class="ten">Tạ Trọng Diện</td></tr>
+        <tr><td>9</td><td class="ten">Phạm Khắc Đăng Dương</td></tr>
+        <tr><td>10</td><td class="ten">Nguyễn Xuân Giang</td></tr>
+        <tr><td>11</td><td class="ten">Đặng Thị Thanh Hà</td></tr>
+        <tr><td>12</td><td class="ten">Phan Thị Ngọc Hà</td></tr>
+        <tr><td>13</td><td class="ten">Hoàng Văn Hải</td></tr>
+        <tr><td>14</td><td class="ten">Nguyễn Hữu Hiển</td></tr>
+        <tr><td>15</td><td class="ten">Nguyễn Thanh Hiền</td></tr>
+        <tr><td>16</td><td class="ten">Trần Ngọc Hiếu</td></tr>
+        <tr><td>17</td><td class="ten">Phạm Thị Ngọc Hòa</td></tr>
+        <tr><td>18</td><td class="ten">Đỗ Thị Huế</td></tr>
+        <tr><td>19</td><td class="ten">Dương Đình Huy</td></tr>
+        <tr><td>20</td><td class="ten">Ngô Đức Huy</td></tr>
+        <tr><td>21</td><td class="ten">Phạm Thị Thanh Huyền</td></tr>
+        <tr><td>22</td><td class="ten">Dương Thúy Hường</td></tr>
+        <tr><td>23</td><td class="ten">Nguyễn Bảo Kỳ</td></tr>
+        <tr><td>24</td><td class="ten">Nguyễn Dương Khánh Linh</td></tr>
+        <tr><td>25</td><td class="ten">Nguyễn Khánh Linh</td></tr>
+        <tr><td>26</td><td class="ten">Nguyễn Đức Lương</td></tr>
+        <tr><td>27</td><td class="ten">Nguyễn Hà Mỹ My</td></tr>
+        <tr><td>28</td><td class="ten">Ngô Gia Nam</td></tr>
+        <tr><td>29</td><td class="ten">Ngô Phương Nga</td></tr>
+        <tr><td>30</td><td class="ten">Ngô Thị Kim Ngân</td></tr>
+        <tr><td>31</td><td class="ten">Nguyễn Huy Nghĩa</td></tr>
+        <tr><td>32</td><td class="ten">Ngô Phương Nhi</td></tr>
+        <tr><td>33</td><td class="ten">Trần Thị Kim Oanh</td></tr>
+        <tr><td>34</td><td class="ten">Nguyễn Đình Phúc</td></tr>
+        <tr><td>35</td><td class="ten">Nguyễn Thị Thu Phương</td></tr>
+        <tr><td>36</td><td class="ten">Nguyễn Văn Thăng</td></tr>
+        <tr><td>37</td><td class="ten">Vũ Văn Thăng</td></tr>
+        <tr><td>38</td><td class="ten">Nguyễn Phương Thúy</td></tr>
+        <tr><td>39</td><td class="ten">Nguyễn Thành Trung</td></tr>
+        <tr><td>40</td><td class="ten">Nguyễn Viết Trường</td></tr>
+        <tr><td>41</td><td class="ten">Hoàng Phương Vi</td></tr>
+        <tr><td>42</td><td class="ten">Ngô Thị Hồng Xuân</td></tr>
+        <tr><td>43</td><td class="ten">Ngô Thị Hải Yến</td></tr>
+    </table>
+
+    <!-- Thư viện ảnh -->
+    <p><strong>Thư viện ảnh</strong></p>
+    <table>
+        <tr>
+            <td>Ảnh 1</td>
+            <td>Ảnh 2</td>
+            <td>Ảnh 3</td>
+        </tr>
+    </table>
+
+</body>
+</html>
